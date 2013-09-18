@@ -175,7 +175,7 @@ module.exports.prototype = {
         var project_www = this.www_dir();
 
         // remove the stock www folder
-        shell.rm('-rf', project_www);
+        // shell.rm('-rf', project_www);
 
         // copy over project www assets
         shell.cp('-rf', www, this.path);
